@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: generalPages
+name: 'General Pages'
+propagationMethod: all
+siteSettings:
+  da3c6878-a68a-4c33-a256-2792f6fa5700: # Unit Ops Media
+    enabledByDefault: true
+    hasUrls: true
+    template: general.twig
+    uriFormat: '{parent.uri}/{slug}'
+structure:
+  maxLevels: 2
+  uid: 022d8efb-52d6-490d-b1aa-c6fcf2bec387
+type: structure

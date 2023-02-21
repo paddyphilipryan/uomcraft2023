@@ -1,0 +1,118 @@
+assets:
+  tempVolumeUid: a746e19c-2d8d-406d-9a79-7c0a9acf1002 # Uploads
+dateModified: 1677003754
+email:
+  fromEmail: paddy@unitopsmedia.com
+  fromName: 'Unit Ops Media'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  upload:
+    hasUrls: true
+    name: Upload
+    settings:
+      path: '@webroot'
+    type: craft\fs\Local
+    url: 'https://unitopsv3.ddev.site/'
+meta:
+  __names__:
+    2f7df656-b868-42d8-841b-0ebaf1dc0f46: Rider # Rider
+    3ba18d52-4eb3-4215-8207-ee34d57e8334: 'General Pages' # General Pages
+    5d7f1c11-1f74-48f2-9fd6-7816594f8123: Description # Description
+    6c699954-a793-4faa-ac70-5bb90e3868fe: 'Featured Story' # Featured Story
+    7e9412da-14a8-4a25-9356-b42a113428cd: Photos # Photos
+    8d6ce9b1-d995-4eed-a294-eb96480f7c6e: Home # Home
+    9ac771eb-c1c5-494d-8c21-ae3ac3bbb22f: 'Hero Image' # Hero Image
+    11c6df79-3206-454c-a00b-8eec2261d9e0: 'Stories Listing' # Stories Listing
+    17cc42c1-6276-4fcd-8199-7b779f8cd93f: 'MRider Title' # MRider Title
+    37f5fc3e-25ad-4ae5-92fa-2dc6d5fd4abe: 'Link Destination' # Link Destination
+    59d958b4-f306-49ce-9fcc-781fead2613c: Rider # Rider
+    106c3673-d8ca-454c-9892-d15089dc1504: 'Link Text' # Link Text
+    449afe31-20c9-4acb-be33-2277d3ca952d: Transform # Transform
+    507cd5bc-ff86-46a3-8c20-1a0955d6a8c7: 'General Pages' # General Pages
+    7044ba8b-8802-4c51-87ae-126c8045f356: 'Riders Intro Content' # Riders Intro Content
+    8603b593-420e-4ada-8cf7-12d66b262b8d: Header # Header
+    98508fc1-6fa0-4b66-be38-9373c115b92d: 'Unit Ops Media' # Unit Ops Media
+    356765ad-7215-4292-a70a-f04d0f0d44a6: 'Hero Title' # Hero Title
+    a48a8c9a-1557-4a78-b154-fdf723b52e6a: Common # Common
+    a729da46-3ea4-4ca8-a1ba-7ba02c901ed1: 'Rich Text' # Rich Text
+    a746e19c-2d8d-406d-9a79-7c0a9acf1002: Uploads # Uploads
+    af0e32d6-051c-40c6-abc5-0d81e8bcfdce: 'Full Name' # Full Name
+    b8ed9edf-b202-469d-a884-90913f150fae: 'Nav Links' # Nav Links
+    b8185e64-4790-4361-bb06-a18929c9116b: Home # Home
+    cce21347-ad17-446d-b0c0-6a4778457813: 'Short Description' # Short Description
+    cf7601fe-b9fe-411e-a717-2637bc91e0fa: 'Stories Listing' # Stories Listing
+    da3c6878-a68a-4c33-a256-2792f6fa5700: 'Unit Ops Media' # Unit Ops Media
+    de03e34a-6130-4e80-9356-7d0e30f1c8a8: Photo # Photo
+    ded84331-2bff-4bad-8a9b-0356990ac13d: Default # Default
+    e7635b01-39c4-4ae0-acc4-7bf8dc34ac59: Home # Home
+    ea2fdbfe-5bd3-4641-82d2-e332a74b7e7e: Footer # Footer
+    eb5a75e4-911f-4f45-988d-4bb3ff3c7da6: Link # Link
+    ebf40886-b893-4d2f-9a1d-f6249fa12446: Stories # Stories
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  seomatic:
+    edition: standard
+    enabled: true
+    licenseKey: Z9P0ZRKA68IFN1U0BCRMS2BU
+    schemaVersion: 3.0.11
+    settings:
+      addHrefLang: true
+      addPaginatedHreflang: true
+      addXDefaultHrefLang: true
+      alwaysIncludeCanonicalUrls: false
+      cpTitlePrefix: '⚙ '
+      cspNonce: ''
+      cspScriptSrcPolicies:
+        -
+          __assoc__:
+            -
+              - policy
+              - '''self'''
+      devModeCpTitlePrefix: '&#x1f6a7;⚙ '
+      devModeTitlePrefix: '&#x1f6a7; '
+      displayAnalysisSidebar: true
+      displayPreviewSidebar: true
+      enableJsonLdEndpoint: false
+      enableMetaContainerEndpoint: false
+      enableSeoFileLinkEndpoint: false
+      environment: live
+      excludeNonCanonicalUrls: false
+      generatorEnabled: true
+      headersEnabled: true
+      includeHomepageInBreadcrumbs: true
+      lowercaseCanonicalUrl: true
+      manuallySetEnvironment: false
+      maxDescriptionLength: 155
+      maxTitleLength: 70
+      metaCacheDuration: 0
+      pluginName: SEOmatic
+      regenerateSitemapsAutomatically: true
+      renderEnabled: true
+      separatorChar: '|'
+      sidebarDisplayPreviewTypes:
+        - google
+        - twitter
+        - facebook
+        - linkedin
+      siteGroupsSeparate: true
+      siteUrlOverride: ''
+      sitemapsEnabled: true
+      socialMediaPreviewTarget: true
+      submitSitemaps: true
+      truncateDescriptionTags: true
+      truncateTitleTags: true
+system:
+  edition: solo
+  live: true
+  name: 'Unit Ops Media'
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

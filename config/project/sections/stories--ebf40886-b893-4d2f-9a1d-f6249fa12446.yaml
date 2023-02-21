@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: stories
+name: Stories
+propagationMethod: all
+siteSettings:
+  da3c6878-a68a-4c33-a256-2792f6fa5700: # Unit Ops Media
+    enabledByDefault: true
+    hasUrls: true
+    template: stories/_entry.twig
+    uriFormat: 'stories/{slug}'
+type: channel

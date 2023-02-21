@@ -1,0 +1,26 @@
+
+
+<header class="header">
+      <div class="header__content content-column">
+
+        <a href="{{ siteUrl }}" class="logo">
+          <img src="{{ siteUrl }}unitopsmedia_white.png" width="280px" alt="{{ siteName }}">
+        </a>
+
+        <button type="button" class="nav-toggle">
+          <img src="{{ siteUrl }}static/images/list.svg" alt="Menu" class="icon-open-menu">
+          <img src="{{ siteUrl }}static/images/x.svg" alt="Close Menu" class="icon-close-menu">
+        </button>
+        
+        <nav class="nav">
+        {% for link in header.navLinks.all() %}
+            {% set destination = link.linkDestination.one() %}
+            {% set activeLink = craft.app.request.segments|first == destination.uri %}
+
+            <a href="{{ destination.url }}" class="nav__link {% if activeLink %}nav__link--active{% endif %}">{{ link.linkText }}</a>
+        {% endfor %}
+          
+        </nav>
+        
+      </div>
+    </header>

@@ -1,0 +1,19 @@
+columnSuffix: aorvmery
+contentColumnType: text
+fieldGroup: a48a8c9a-1557-4a78-b154-fdf723b52e6a # Common
+handle: shortDescription
+instructions: null
+name: 'Short Description'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 3
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
